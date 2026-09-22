@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Bhajan List</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="songs.css">
+
+</head>
+
+<body>
+
+<main class="book">
+
+    <div class="outer-frame songs-page">
+
+        <!-- Header -->
+
+        <header class="songs-header">
+
+            <div class="small-om">
+                ॐ
+            </div>
+
+            <h1>
+                Bhajan Collection
+            </h1>
+
+            <p>
+                Select a bhajan to read
+            </p>
+
+        </header>
+
+
+        <!-- Search -->
+
+        <section class="search-section">
+
+            <input
+                type="search"
+                id="searchBox"
+                placeholder="🔍  Search bhajan..."
+                autocomplete="off"
+            >
+
+        </section>
+
+
+        <!-- Song List -->
+
+        <section
+            id="songList"
+            class="song-list">
+        </section>
+
+
+        <!-- Back -->
+
+        <div class="back-section">
+
+            <a href="index.html">
+                ← Back to Home
+            </a>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<script src="songs.js"></script>
+<script src="songs-page.js"></script>
+
+</body>
+
+</html>

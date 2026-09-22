@@ -1,0 +1,260 @@
+.songs-page {
+    min-height: calc(100vh - 36px);
+}
+
+
+/* Header */
+
+.songs-header {
+
+    text-align: center;
+
+    margin-bottom: 35px;
+
+}
+
+
+.small-om {
+
+    font-size: 55px;
+
+    color: #861515;
+
+    font-weight: bold;
+
+}
+
+
+.songs-header h1 {
+
+    margin-top: 5px;
+
+    font-size: clamp(32px, 5vw, 52px);
+
+    color: #7e1414;
+
+}
+
+
+.songs-header p {
+
+    margin-top: 8px;
+
+    font-size: 20px;
+
+    color: #956322;
+
+    font-style: italic;
+
+}
+
+
+/* Search */
+
+.search-section {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-bottom: 40px;
+
+}
+
+
+#searchBox {
+
+    width: min(700px, 90%);
+
+    padding: 17px 25px;
+
+    border-radius: 40px;
+
+    border: 3px solid #c28a23;
+
+    background: #fff9e8;
+
+    color: #6f1717;
+
+    font-family: Georgia, serif;
+
+    font-size: 20px;
+
+    outline: none;
+
+    box-shadow:
+        0 4px 12px rgba(80, 40, 0, 0.12);
+
+}
+
+
+#searchBox:focus {
+
+    border-color: #861515;
+
+    box-shadow:
+        0 0 0 3px rgba(194, 138, 35, 0.18);
+
+}
+
+
+/* Song list */
+
+.song-list {
+
+    width: min(800px, 92%);
+
+    margin: auto;
+
+}
+
+
+.category-block {
+
+    margin-bottom: 32px;
+
+}
+
+
+.category-block h2 {
+
+    color: #821414;
+
+    font-size: 27px;
+
+    margin-bottom: 10px;
+
+    padding-bottom: 8px;
+
+    border-bottom: 2px solid #d2a044;
+
+}
+
+
+.category-songs {
+
+    padding-left: 30px;
+
+}
+
+
+.song-link {
+
+    display: block;
+
+    padding: 9px 12px;
+
+    margin: 4px 0;
+
+    color: #704313;
+
+    text-decoration: none;
+
+    font-size: 21px;
+
+    border-radius: 8px;
+
+    transition:
+        background 0.2s,
+        color 0.2s,
+        padding-left 0.2s;
+
+}
+
+
+.song-link span {
+
+    color: #a66a13;
+
+}
+
+
+.song-link:hover {
+
+    background: #f5dfaa;
+
+    color: #861515;
+
+    padding-left: 20px;
+
+}
+
+
+/* No results */
+
+.no-results {
+
+    text-align: center;
+
+    font-size: 22px;
+
+    color: #861515;
+
+    padding: 50px 10px;
+
+}
+
+
+/* Back */
+
+.back-section {
+
+    text-align: center;
+
+    margin-top: 50px;
+
+}
+
+
+.back-section a {
+
+    color: #861515;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+}
+
+
+.back-section a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .songs-page {
+
+        padding:
+            30px 15px;
+    }
+
+
+    .category-block h2 {
+
+        font-size: 23px;
+
+    }
+
+
+    .song-link {
+
+        font-size: 19px;
+
+    }
+
+
+    #searchBox {
+
+        font-size: 17px;
+
+        padding: 14px 18px;
+
+    }
+
+}
